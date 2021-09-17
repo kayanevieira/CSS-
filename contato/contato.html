@@ -24,23 +24,21 @@
     <section class="contato">
       <div class="form-div">
         <form class="form">
-          <input type="text" class="campo" name="nome" placeholder="nome..." />
-          <input
-            type="text"
-            class="campo"
-            name="email"
-            placeholder="email..."
-          />
-          
+          <label for="campo-nome" id="1">Nome</label>
+          <input type="text" class="campo" name="name" id="1" autofocus required autocomplete="name"/>
+          <label for="campo-email" id="2">Email</label>
+          <input type="text" class="campo" name="email" id="2" required autocomplete="email"/>
+          <label for="campo-mensagem" id="3">Mensagem</label>
           <textarea
             class="textarea"
             name="texto"
             id=""
             cols="30"
             rows="10"
-            placeholder="Quero falar sobre..."
+            id="3"
+            required
           ></textarea>
-          <input type="submit" class="button" value="Enviar" />
+          <input type="submit" class="button" value="Enviar"/>
         </form>
       </div>
     </section>
