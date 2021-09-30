@@ -69,6 +69,14 @@ h2:hover{
     background-image: var(--linear);
 }
 
+.d-none{
+    color: green;
+    font-size: 22px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
 @media only screen and (max-width: 765px) {
     .campo{
       width: 21em;

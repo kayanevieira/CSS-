@@ -23,24 +23,27 @@
 
     <section class="contato">
       <div class="form-div">
-        <form class="form">
+        <form class="form" id="form" method="post">
           <label for="campo-nome" id="1">Nome</label>
-          <input type="text" class="campo" name="name" id="1" autofocus required autocomplete="name"/>
-          <label for="campo-email" id="2">Email</label>
-          <input type="text" class="campo" name="email" id="2" required autocomplete="email"/>
+          <input type="text" class="campo" name="input" id="input" autofocus required autocomplete="name"/>
+          <label for="campo-email" id="">Email</label>
+          <input type="text" class="campo" name="input" id="input" required autocomplete="email"/>
           <label for="campo-mensagem" id="3">Mensagem</label>
           <textarea
             class="textarea"
-            name="texto"
+            name="input"
             id=""
             cols="30"
             rows="10"
-            id="3"
+            id="input"
             required
           ></textarea>
-          <input type="submit" class="button" value="Enviar"/>
+          <input type="submit" class="button" name="input" id="submit-id" value="Enviar"/>
         </form>
       </div>
+      <span class="d-none" id="d-none">Sucesso em enviar o
+        formulário</span>
     </section>
+    <script src="/contato/index.js"></script>
   </body>
 </html>
